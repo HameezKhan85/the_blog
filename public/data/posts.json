@@ -1,0 +1,297 @@
+[
+    {
+        "id": 1,
+        "title": "UX review presentations",
+        "excerpt": "How do you create compelling presentations that wow your colleagues and impress your managers?",
+        "permalink": "/",
+        "image": [
+            {
+                "src": "post-1.webp",
+                "alt": "Office",
+                "width": 592,
+                "height": 228
+            }
+        ],
+        "author": "Olivia Rhye",
+        "date": "1 Jan 2023",
+        "tags": [
+            {
+                "name": "Design",
+                "href": "/",
+                "color": "purple"
+            },
+            {
+                "name": "Research",
+                "href": "/",
+                "color": "blue"
+            },
+            {
+                "name": "Presentation",
+                "href": "/",
+                "color": "red"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "title": "Migrating to Linear 101",
+        "excerpt": "Linear helps streamline software projects, sprints, tasks, and bug tracking. Here's how to get started.",
+        "permalink": "/",
+        "image": [
+            {
+                "src": "post-2.webp",
+                "alt": "Office",
+                "width": 320,
+                "height": 200
+            }
+        ],
+        "author": "Olivia Rhye",
+        "date": "1 Jan 2023",
+        "tags": [
+            {
+                "name": "Design",
+                "href": "/",
+                "color": "green"
+            },
+            {
+                "name": "Research",
+                "href": "/",
+                "color": "red"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "title": "Building your API Stack",
+        "excerpt": "The rise of RESTful APIs has been met by a rise in tools for creating, testing, and managing them.",
+        "permalink": "/",
+        "image": [
+            {
+                "src": "post-3.webp",
+                "alt": "Table",
+                "width": 320,
+                "height": 200
+            }
+        ],
+        "author": "Olivia Rhye",
+        "date": "1 Jan 2023",
+        "tags": [
+            {
+                "name": "Design",
+                "href": "/",
+                "color": "green"
+            },
+            {
+                "name": "Research",
+                "href": "/",
+                "color": "red"
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "title": "Grid system for better Design User Interface",
+        "excerpt": "A grid system is a design tool used to arrange content on a webpage. It is a series of vertical and horizontal lines that create a matrix of intersecting points, which can be used to align and organize page elements. Grid systems are used to create a consistent look and feel across a website, and can help to make the layout more visually appealing and easier to navigate.",
+        "permalink": "/",
+        "image": [
+            {
+                "src": "post-4.webp",
+                "alt": "Table",
+                "width": 592,
+                "height": 246
+            }
+        ],
+        "author": "Olivia Rhye",
+        "date": "1 Jan 2023",
+        "tags": [
+            {
+                "name": "Design",
+                "href": "/",
+                "color": "purple"
+            },
+            {
+                "name": "Interface",
+                "href": "/",
+                "color": "red"
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "title": "Bill Walsh leadership lessons",
+        "excerpt": "Like to know the secrets of transforming a 2-14 team into a 3x Super Bowl winning Dynasty?",
+        "permalink": "/",
+        "image": [
+            {
+                "src": "post-5.webp",
+                "alt": "Mountain",
+                "width": 384,
+                "height": 240
+            }
+        ],
+        "author": "Alec Whitten",
+        "date": "1 Jan 2023",
+        "tags": [
+            {
+                "name": "Leadership",
+                "href": "/",
+                "color": "purple"
+            },
+            {
+                "name": "Management",
+                "href": "/",
+                "color": "gray"
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "title": "PM mental models",
+        "excerpt": "Mental models are simple expressions of complex processes or relationships.",
+        "permalink": "/",
+        "image": [
+            {
+                "src": "post-6.webp",
+                "alt": "Office_Meeting",
+                "width": 384,
+                "height": 240
+            }
+        ],
+        "author": "Demi WIlkinson",
+        "date": "1 Jan 2023",
+        "tags": [
+            {
+                "name": "Product",
+                "href": "/",
+                "color": "green"
+            },
+            {
+                "name": "Research",
+                "href": "/",
+                "color": "blue"
+            },
+            {
+                "name": "Frameworks",
+                "href": "/",
+                "color": "red"
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "title": "What is Wireframing?",
+        "excerpt": "Introduction to Wireframing and its Principles. Learn from the best in the industry.",
+        "permalink": "/",
+        "image": [
+            {
+                "src": "post-7.webp",
+                "alt": "PC_on_a_Table",
+                "width": 384,
+                "height": 240
+            }
+        ],
+        "author": "Candice Wu",
+        "date": "1 Jan 2023",
+        "tags": [
+            {
+                "name": "Design",
+                "href": "/",
+                "color": "purple"
+            },
+            {
+                "name": "Research",
+                "href": "/",
+                "color": "blue"
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "title": "How collaboration makes us better designers",
+        "excerpt": "Collaboration can make our teams stronger, and our individual designs better.",
+        "permalink": "/",
+        "image": [
+            {
+                "src": "post-8.webp",
+                "alt": "Pictures_on_Wall",
+                "width": 384,
+                "height": 240
+            }
+        ],
+        "author": "Natali Craig",
+        "date": "1 Jan 2023",
+        "tags": [
+            {
+                "name": "Design",
+                "href": "/",
+                "color": "purple"
+            },
+            {
+                "name": "Research",
+                "href": "/",
+                "color": "blue"
+            }
+        ]
+    },
+    {
+        "id": 9,
+        "title": "Our top 10 Javascript frameworks to use",
+        "excerpt": "JavaScript frameworks make development easy with extensive features and functionalities.",
+        "permalink": "/",
+        "image": [
+            {
+                "src": "post-9.webp",
+                "alt": "Man_Watching_Laptop",
+                "width": 384,
+                "height": 240
+            }
+        ],
+        "author": "Drew Cano",
+        "date": "1 Jan 2023",
+        "tags": [
+            {
+                "name": "Software Development",
+                "href": "/",
+                "color": "green"
+            },
+            {
+                "name": "Tools",
+                "href": "/",
+                "color": "pink"
+            },
+            {
+                "name": "SaaS",
+                "href": "/",
+                "color": "red"
+            }
+        ]
+    },
+    {
+        "id": 10,
+        "title": "Podcast: Creating a better CX Community",
+        "excerpt": "Starting a community doesn’t need to be complicated, but how do you get started?",
+        "permalink": "/",
+        "image": [
+            {
+                "src": "post-10.webp",
+                "alt": "Girl_Podcasting_and_Watching_Laptop",
+                "width": 384,
+                "height": 240
+            }
+        ],
+        "author": "Orlando Diggs",
+        "date": "1 Jan 2023",
+        "tags": [
+            {
+                "name": "Podcasts",
+                "href": "/",
+                "color": "purple"
+            },
+            {
+                "name": "Customer Success",
+                "href": "/",
+                "color": "gray"
+            }
+        ]
+    }
+]
