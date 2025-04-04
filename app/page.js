@@ -1,5 +1,4 @@
 import React from 'react'
-import siteConfig from '@/config/site'
 import RecentPosts from '@/components/RecentPosts'
 import AllPosts from '@/components/AllPosts'
 
