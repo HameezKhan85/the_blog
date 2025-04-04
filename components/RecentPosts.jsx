@@ -2,26 +2,8 @@
 
 import React from "react";
 import Link from "next/link";
-import { useState, useEffect } from 'react';
 
-function recentPosts() {
-  const [posts, setPosts] = useState([]);
-
-  useEffect(() => {
-    const fetchPosts = async () => {
-      try {
-        const response = await fetch("/data/posts.json");
-        const data = await response.json();
-        setPosts(data);
-      } catch (error) {
-        console.error("Error fetching posts:", error);
-      }
-    };
-
-    fetchPosts();
-  }, []);
-
-
+function recentPosts({ posts }) {
   return (
     <>
       <section className="py-5 lg:py-7.5">

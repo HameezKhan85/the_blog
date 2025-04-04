@@ -2,25 +2,8 @@
 
 import React from "react";
 import Link from "next/link";
-import { useState, useEffect } from "react";
 
-function AllPosts() {
-  const [posts, setPosts] = useState([]);
-
-  useEffect(() => {
-    const fetchPosts = async () => {
-      try {
-        const response = await fetch("/data/posts.json");
-        const data = await response.json();
-        setPosts(data);
-      } catch (error) {
-        console.error("Error fetching posts:", error);
-      }
-    };
-
-    fetchPosts();
-  }, []);
-
+function AllPosts({ posts }) {
   return (
     <>
       <section>
