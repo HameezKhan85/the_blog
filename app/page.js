@@ -10,8 +10,8 @@ export default async function Home() {
   const allPosts = await getPosts();
   const sortedRecentPosts = [...allPosts].sort((a, b) =>
     new Date(b.date) - new Date(a.date)
-  );
-
+  ).slice(0, 4);
+  
   return (
     <>
       <div className='mb-5 lg:mb-7.5'>
@@ -22,7 +22,7 @@ export default async function Home() {
         </div>
       </div>
       <RecentPosts posts={sortedRecentPosts} />
-      <AllPosts posts={allPosts} />
+      {/* <AllPosts posts={allPosts} /> */}
     </>
   )
 }

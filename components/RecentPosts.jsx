@@ -1,7 +1,27 @@
-'use client';
+"use client";
 
 import React from "react";
 import Link from "next/link";
+
+const commonCard = "[&_h3]:text-md [&_h3]:mb-3 [&_h3]:before:content-['']";
+
+let verticalCard = `
+    xl:row-span-2 
+    col-span-full
+    lg:col-span-3
+    xl:col-span-2
+    ${commonCard}
+  `;
+
+let horizontalFullCard = `
+    col-span-full
+    lg:col-span-3
+    xl:col-span-full
+    xl:grid-cols-2
+    gap-x-6
+    lg:gap-x-8
+    ${commonCard}
+  `;
 
 function recentPosts({ posts }) {
   return (
@@ -11,11 +31,13 @@ function recentPosts({ posts }) {
           <h2 className="text-md font-semibold mb-5 lg:mb-8">
             Recent blog posts
           </h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 xl:grid-cols-4 gap-8">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 xl:grid-cols-4 gap-6 md:gap-8">
             {posts.map((post, index) => (
               <div
                 key={index}
-                className="md:first:col-span-2 lg:first:row-span-2 lg:col-span-3 xl:col-span-2 nth-of-type-4:col-span-1 md:nth-of-type-4:col-span-2 lg:nth-of-type-4:col-span-5 xl:nth-of-type-4:col-span-4 lg:nth-of-type-[n+5]:col-span-5 xl:nth-of-type-[n+5]:col-span-2 flex lg:not-first:grid grid-cols-2 flex-col lg:not-first:flex-row not-first:items-center lg:items-start gap-x-6 gap-y-8 nth-of-type-4:mt-7 [&:first-of-type_h3]:text-md [&:first-of-type_h3]:mb-3 [&:first-of-type_h3]:before:content-['']"
+                className={`
+                  grid grid-cols-1 gap-y-4 md:gap-y-8
+                  ${index === 0 ? verticalCard : index !== 3 ? "md:grid-cols-[minmax(295px,320px)_minmax(385px,550px)] lg:grid-cols-1 xl:grid-cols-[minmax(270px,320px)_248px]" : ""} ${index === 3 ? horizontalFullCard : 'md:col-span-full lg:col-span-2 md:gap-x-6'}`}
               >
                 {post.image.map((image, index) => (
                   <Link
@@ -24,7 +46,7 @@ function recentPosts({ posts }) {
                     className="w-full h-full"
                   >
                     <img
-                      className="w-full h-full object-cover"
+                      className="w-full h-[160px] xs:h-[200px] sm:h-full object-cover"
                       src={`/images/${image.src}`}
                       alt={image}
                       width={image.width}
@@ -46,8 +68,8 @@ function recentPosts({ posts }) {
                       {post.title}
                     </Link>
                   </h3>
-                  <p className="line-clamp-3 mb-6">{post.excerpt}</p>
-                  <ul className="flex items-center gap-2">
+                  <p className={`${index === 3 ? 'line-clamp-5' : 'line-clamp-3'} mb-6`}>{post.excerpt}</p>
+                  <ul className="flex flex-wrap items-center gap-2">
                     {post.tags.map((tag, index) => (
                       <li key={index}>
                         <Link
