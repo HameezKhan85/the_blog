@@ -29,7 +29,7 @@ export default function Home() {
         </div>
       </div>
       <RecentPosts posts={recentPosts} />
-      {/* <AllPosts posts={allPosts} /> */}
+      {/* <AllPosts posts={data} /> */}
     </>
   )
 }
