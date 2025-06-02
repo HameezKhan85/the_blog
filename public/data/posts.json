@@ -102,7 +102,7 @@
             }
         ],
         "author": "Olivia Rhye",
-        "date": "4 Sep 2025",
+        "date": "15 Nov 2026",
         "tags": [
             {
                 "name": "Design",
@@ -289,6 +289,230 @@
             },
             {
                 "name": "Customer Success",
+                "href": "/",
+                "color": "gray"
+            }
+        ]
+    },
+    {
+        "id": 11,
+        "title": "Effective Sprint Planning Strategies",
+        "excerpt": "Sprint planning is key to an agile workflow. Discover how to get the most from your planning meetings.",
+        "permalink": "/",
+        "image": [
+            {
+                "src": "post-2.webp",
+                "alt": "Office",
+                "width": 320,
+                "height": 200
+            }
+        ],
+        "author": "Liam Cole",
+        "date": "2 Dec 2026",
+        "tags": [
+            {
+                "name": "Agile",
+                "href": "/",
+                "color": "red"
+            },
+            {
+                "name": "Productivity",
+                "href": "/",
+                "color": "blue"
+            }
+        ]
+    },
+    {
+        "id": 12,
+        "title": "The Future of Design Systems",
+        "excerpt": "Design systems help teams scale designs. Let’s look at where they’re headed in 2027.",
+        "permalink": "/",
+        "image": [
+            {
+                "src": "post-3.webp",
+                "alt": "Table",
+                "width": 320,
+                "height": 200
+            }
+        ],
+        "author": "Sophie Taylor",
+        "date": "28 Nov 2026",
+        "tags": [
+            {
+                "name": "Design",
+                "href": "/",
+                "color": "purple"
+            },
+            {
+                "name": "System",
+                "href": "/",
+                "color": "green"
+            }
+        ]
+    },
+    {
+        "id": 13,
+        "title": "The Psychology Behind Great User Interfaces",
+        "excerpt": "Understanding cognitive load, user patterns, and visual hierarchy can take your UI to the next level.",
+        "permalink": "/",
+        "image": [
+            {
+                "src": "post-5.webp",
+                "alt": "Mountain",
+                "width": 384,
+                "height": 240
+            }
+        ],
+        "author": "Noah Bennett",
+        "date": "5 Nov 2026",
+        "tags": [
+            {
+                "name": "UI/UX",
+                "href": "/",
+                "color": "blue"
+            },
+            {
+                "name": "Psychology",
+                "href": "/",
+                "color": "gray"
+            }
+        ]
+    },
+    {
+        "id": 14,
+        "title": "Writing Better Product Specs",
+        "excerpt": "Well-written product specs align teams and reduce confusion. Here's how to do it.",
+        "permalink": "/",
+        "image": [
+            {
+                "src": "post-6.webp",
+                "alt": "Office_Meeting",
+                "width": 384,
+                "height": 240
+            }
+        ],
+        "author": "Olivia Rhye",
+        "date": "20 Oct 2026",
+        "tags": [
+            {
+                "name": "Product",
+                "href": "/",
+                "color": "green"
+            },
+            {
+                "name": "Documentation",
+                "href": "/",
+                "color": "red"
+            }
+        ]
+    },
+    {
+        "id": 15,
+        "title": "Color Theory in Product Design",
+        "excerpt": "Color can influence emotions and behavior. Learn how to use it effectively in product design.",
+        "permalink": "/",
+        "image": [
+            {
+                "src": "post-7.webp",
+                "alt": "PC_on_a_Table",
+                "width": 384,
+                "height": 240
+            }
+        ],
+        "author": "Candice Wu",
+        "date": "15 Oct 2026",
+        "tags": [
+            {
+                "name": "Design",
+                "href": "/",
+                "color": "purple"
+            },
+            {
+                "name": "Color Theory",
+                "href": "/",
+                "color": "pink"
+            }
+        ]
+    },
+    {
+        "id": 16,
+        "title": "Top 5 Collaboration Tools in 2027",
+        "excerpt": "From Figma to Notion, here are the top collaboration tools you should be using this year.",
+        "permalink": "/",
+        "image": [
+            {
+                "src": "post-8.webp",
+                "alt": "Pictures_on_Wall",
+                "width": 384,
+                "height": 240
+            }
+        ],
+        "author": "Natali Craig",
+        "date": "3 Oct 2026",
+        "tags": [
+            {
+                "name": "Tools",
+                "href": "/",
+                "color": "blue"
+            },
+            {
+                "name": "Productivity",
+                "href": "/",
+                "color": "green"
+            }
+        ]
+    },
+    {
+        "id": 17,
+        "title": "Vue vs React in 2027",
+        "excerpt": "A head-to-head comparison of Vue and React based on performance, adoption, and scalability.",
+        "permalink": "/",
+        "image": [
+            {
+                "src": "post-9.webp",
+                "alt": "Man_Watching_Laptop",
+                "width": 384,
+                "height": 240
+            }
+        ],
+        "author": "Drew Cano",
+        "date": "25 Sep 2026",
+        "tags": [
+            {
+                "name": "JavaScript",
+                "href": "/",
+                "color": "green"
+            },
+            {
+                "name": "Frameworks",
+                "href": "/",
+                "color": "red"
+            }
+        ]
+    },
+    {
+        "id": 18,
+        "title": "Hosting a Tech Podcast: Do's and Don'ts",
+        "excerpt": "If you're thinking of launching a tech podcast, here are tips to keep your content fresh and engaging.",
+        "permalink": "/",
+        "image": [
+            {
+                "src": "post-10.webp",
+                "alt": "Girl_Podcasting_and_Watching_Laptop",
+                "width": 384,
+                "height": 240
+            }
+        ],
+        "author": "Orlando Diggs",
+        "date": "10 Sep 2026",
+        "tags": [
+            {
+                "name": "Podcasts",
+                "href": "/",
+                "color": "purple"
+            },
+            {
+                "name": "Tech",
                 "href": "/",
                 "color": "gray"
             }

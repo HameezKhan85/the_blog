@@ -1,12 +1,13 @@
 import PostCard from "./PostCard";
 
-const commonCard = "[&_h3]:text-md [&_h3]:mb-3 [&_h3]:before:content-['']";
+const commonCard = "[&_h3]:text-md [&_h3]:mb-3";
 
 const verticalCard = `
   xl:row-span-2 
   col-span-full
   lg:col-span-3
   xl:col-span-2
+  [&_h3]:before:content-['']
   ${commonCard}
 `;
 
@@ -17,6 +18,7 @@ const horizontalFullCard = `
   xl:grid-cols-2
   gap-x-6
   lg:gap-x-8
+  [&_h3]:before:content-['']
   ${commonCard}
 `;
 
@@ -37,7 +39,6 @@ export function getHomepageLayout(index) {
 export function getDefaultLayout() {
   return verticalCard;
 }
-
 
 function recentPosts({ posts }) {
   return (
