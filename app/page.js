@@ -18,6 +18,7 @@ export default function Home() {
 
   const sortedPosts = [...data].sort((a, b) => new Date(b.date) - new Date(a.date));
   const recentPosts = sortedPosts.slice(0, 4);
+  const allPostsNoRecent = sortedPosts.filter(post => !recentPosts.includes(post));
 
   return (
     <>
@@ -29,7 +30,7 @@ export default function Home() {
         </div>
       </div>
       <RecentPosts posts={recentPosts} />
-      {/* <AllPosts posts={data} /> */}
+      <AllPosts posts={allPostsNoRecent} />
     </>
   )
 }

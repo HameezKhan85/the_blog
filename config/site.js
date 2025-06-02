@@ -1,4 +1,4 @@
-export default {
+const siteConfig = {
     name: "NEXT",
     socialLinks: [
         { name: 'Twitter', link: '/' },
@@ -8,3 +8,5 @@ export default {
         { name: 'RSS feed', link: '/' },
     ]
 };
+
+export default siteConfig;
