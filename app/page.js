@@ -5,6 +5,7 @@ import RecentPosts from '@/components/RecentPosts';
 import AllPosts from '@/components/AllPosts';
 import useSWR from 'swr';
 import Pagination from '@/components/Pagination';
+import Loading from './loading';
 
 const fetcher = (url) => fetch(url).then(res => res.json());
 
@@ -14,7 +15,7 @@ export default function Home() {
   const [currentPage, setCurrentPage] = useState(1);
   const postsPerPage = 6;
 
-  if (isLoading) return <p>Loading...</p>;
+  if (isLoading) return <Loading />;
   if (error) return <p>Error fetching data</p>;
 
   const sortedPosts = [...data].sort((a, b) => new Date(b.date) - new Date(a.date));
