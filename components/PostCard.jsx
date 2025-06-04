@@ -1,10 +1,12 @@
 import Link from "next/link";
+import { slugify } from '@/utils/slugify';
 
 export default function PostCard({ data, cardLayout }) {
   return (
     <>
       {data.map((post, index) => {
         const layoutClass = cardLayout ? cardLayout(index) : "";
+        const slug = slugify(post.title);
 
         return (
           <div
@@ -12,7 +14,11 @@ export default function PostCard({ data, cardLayout }) {
             className={`grid grid-cols-1 gap-y-4 md:gap-y-8 ${layoutClass}`}
           >
             {post.image.map((image, i) => (
-              <Link href={post.permalink} key={i} className="w-full h-full">
+              <Link
+                href={`/article/${slug}`}
+                key={i}
+                className="w-full h-full"
+              >
                 <img
                   className="w-full h-[160px] xs:h-[200px] sm:h-full object-cover"
                   src={`/images/${image.src}`}
@@ -34,7 +40,10 @@ export default function PostCard({ data, cardLayout }) {
               </ul>
 
               <h3 className="relative text-sm font-semibold mb-2 before:absolute before:content-none before:inset-0 before:left-auto before:w-6 before:h-6 before:bg-[url(/images/icons/arrow-up-right.png)] before:bg-no-repeat before:bg-contain before:bg-center before:my-auto">
-                <Link href={post.permalink} className="w-full">
+                <Link
+                  href={`/article/${slug}`}
+                  className="w-full"
+                >
                   {post.title}
                 </Link>
               </h3>

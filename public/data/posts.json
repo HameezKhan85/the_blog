@@ -3,7 +3,6 @@
         "id": 1,
         "title": "UX review presentations",
         "excerpt": "How do you create compelling presentations that wow your colleagues and impress your managers?",
-        "permalink": "/",
         "image": [
             {
                 "src": "post-1.webp",
@@ -36,7 +35,6 @@
         "id": 2,
         "title": "Migrating to Linear 101",
         "excerpt": "Linear helps streamline software projects, sprints, tasks, and bug tracking. Here's how to get started.",
-        "permalink": "/",
         "image": [
             {
                 "src": "post-2.webp",
@@ -64,7 +62,6 @@
         "id": 3,
         "title": "Building your API Stack",
         "excerpt": "The rise of RESTful APIs has been met by a rise in tools for creating, testing, and managing them.",
-        "permalink": "/",
         "image": [
             {
                 "src": "post-3.webp",
@@ -92,7 +89,6 @@
         "id": 4,
         "title": "Grid system for better Design User Interface",
         "excerpt": "A grid system is a design tool used to arrange content on a webpage. It is a series of vertical and horizontal lines that create a matrix of intersecting points, which can be used to align and organize page elements. Grid systems are used to create a consistent look and feel across a website, and can help to make the layout more visually appealing and easier to navigate.",
-        "permalink": "/",
         "image": [
             {
                 "src": "post-4.webp",
@@ -120,7 +116,6 @@
         "id": 5,
         "title": "Bill Walsh leadership lessons",
         "excerpt": "Like to know the secrets of transforming a 2-14 team into a 3x Super Bowl winning Dynasty?",
-        "permalink": "/",
         "image": [
             {
                 "src": "post-5.webp",
@@ -148,7 +143,6 @@
         "id": 6,
         "title": "PM mental models",
         "excerpt": "Mental models are simple expressions of complex processes or relationships.",
-        "permalink": "/",
         "image": [
             {
                 "src": "post-6.webp",
@@ -181,7 +175,6 @@
         "id": 7,
         "title": "What is Wireframing?",
         "excerpt": "Introduction to Wireframing and its Principles. Learn from the best in the industry.",
-        "permalink": "/",
         "image": [
             {
                 "src": "post-7.webp",
@@ -209,7 +202,6 @@
         "id": 8,
         "title": "How collaboration makes us better designers",
         "excerpt": "Collaboration can make our teams stronger, and our individual designs better.",
-        "permalink": "/",
         "image": [
             {
                 "src": "post-8.webp",
@@ -237,7 +229,6 @@
         "id": 9,
         "title": "Our top 10 Javascript frameworks to use",
         "excerpt": "JavaScript frameworks make development easy with extensive features and functionalities.",
-        "permalink": "/",
         "image": [
             {
                 "src": "post-9.webp",
@@ -270,7 +261,6 @@
         "id": 10,
         "title": "Podcast: Creating a better CX Community",
         "excerpt": "Starting a community doesn’t need to be complicated, but how do you get started?",
-        "permalink": "/",
         "image": [
             {
                 "src": "post-10.webp",
@@ -298,7 +288,6 @@
         "id": 11,
         "title": "Effective Sprint Planning Strategies",
         "excerpt": "Sprint planning is key to an agile workflow. Discover how to get the most from your planning meetings.",
-        "permalink": "/",
         "image": [
             {
                 "src": "post-2.webp",
@@ -326,7 +315,6 @@
         "id": 12,
         "title": "The Future of Design Systems",
         "excerpt": "Design systems help teams scale designs. Let’s look at where they’re headed in 2027.",
-        "permalink": "/",
         "image": [
             {
                 "src": "post-3.webp",
@@ -354,7 +342,6 @@
         "id": 13,
         "title": "The Psychology Behind Great User Interfaces",
         "excerpt": "Understanding cognitive load, user patterns, and visual hierarchy can take your UI to the next level.",
-        "permalink": "/",
         "image": [
             {
                 "src": "post-5.webp",
@@ -382,7 +369,6 @@
         "id": 14,
         "title": "Writing Better Product Specs",
         "excerpt": "Well-written product specs align teams and reduce confusion. Here's how to do it.",
-        "permalink": "/",
         "image": [
             {
                 "src": "post-6.webp",
@@ -410,7 +396,6 @@
         "id": 15,
         "title": "Color Theory in Product Design",
         "excerpt": "Color can influence emotions and behavior. Learn how to use it effectively in product design.",
-        "permalink": "/",
         "image": [
             {
                 "src": "post-7.webp",
@@ -438,7 +423,6 @@
         "id": 16,
         "title": "Top 5 Collaboration Tools in 2027",
         "excerpt": "From Figma to Notion, here are the top collaboration tools you should be using this year.",
-        "permalink": "/",
         "image": [
             {
                 "src": "post-8.webp",
@@ -466,7 +450,6 @@
         "id": 17,
         "title": "Vue vs React in 2027",
         "excerpt": "A head-to-head comparison of Vue and React based on performance, adoption, and scalability.",
-        "permalink": "/",
         "image": [
             {
                 "src": "post-9.webp",
@@ -494,7 +477,6 @@
         "id": 18,
         "title": "Hosting a Tech Podcast: Do's and Don'ts",
         "excerpt": "If you're thinking of launching a tech podcast, here are tips to keep your content fresh and engaging.",
-        "permalink": "/",
         "image": [
             {
                 "src": "post-10.webp",
