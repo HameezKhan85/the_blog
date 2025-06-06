@@ -42,7 +42,11 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <RecentPosts posts={recentPosts} />
+      <section className="py-5 lg:py-7.5">
+        <div className="container">
+          <RecentPosts posts={recentPosts} />
+        </div>
+      </section>
       <AllPosts posts={paginatedPosts} />
       <Pagination
         totalPages={totalPages}
